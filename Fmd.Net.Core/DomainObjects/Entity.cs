@@ -11,4 +11,9 @@ public abstract class Entity
     [Column("criado_em")] public DateTime CreatedAt { get; protected set; }
     [Column("atualizado_em")] public DateTime UpdatedAt { get; protected set; }
     [Column("excluido_em")] public DateTime? DeletedAt { get; private protected set; }
+    
+    public void Delete()
+    {
+        DeletedAt = DateTime.Now;
+    }
 }
