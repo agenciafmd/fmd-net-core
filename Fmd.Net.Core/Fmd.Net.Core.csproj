@@ -6,7 +6,8 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Fmd.Net.Core</PackageId>
-        <Version>1.0.3</Version>
+        <PackageIcon>logo-fmd.jpg</PackageIcon>
+        <Version>1.0.4</Version>
         <Title>Fmd.Net.Core</Title>
         <Authors>Milena Ramiro</Authors>
         <Company>FMD</Company>
@@ -18,4 +19,11 @@
       <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="..\..\fmd-net-core\assets\logo-fmd.jpg">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+    
 </Project>
