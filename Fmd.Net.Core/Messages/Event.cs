@@ -1,4 +1,4 @@
-using MediatR;
+using Fmd.Net.Mediator.Interfaces;
 
 namespace Fmd.Net.Core.Messages;
 
