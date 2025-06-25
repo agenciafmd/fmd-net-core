@@ -18,7 +18,6 @@ public static class HealthChecksConfiguration
         app.UseHealthChecksUI(options =>
         {
             options.UIPath = uiPath ?? "/health-dashboard";
-            options.AddCustomStylesheet("Styles/healthchecks.css");
         });
     }
 }

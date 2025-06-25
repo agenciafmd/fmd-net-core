@@ -7,7 +7,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Fmd.Net.Core</PackageId>
         <PackageIcon>logo-fmd.jpg</PackageIcon>
-        <Version>1.0.7</Version>
+        <Version>1.0.8</Version>
         <Title>Fmd.Net.Core</Title>
         <Authors>Milena Ramiro</Authors>
         <Company>FMD</Company>
@@ -29,14 +29,6 @@
             <Pack>True</Pack>
             <PackagePath></PackagePath>
         </None>
-    </ItemGroup>
-
-    <ItemGroup>
-        <Content Include="wwwroot\Styles\healthchecks.css">
-            <Pack>true</Pack>
-            <PackagePath>contentFiles\any\any\wwwroot\Styles\</PackagePath>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
     </ItemGroup>
     
 </Project>
