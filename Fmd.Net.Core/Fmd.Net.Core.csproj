@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Fmd.Net.Core</PackageId>
         <PackageIcon>logo.jpg</PackageIcon>
-        <Version>1.0.9</Version>
+        <Version>1.1.0</Version>
         <Title>Fmd.Net.Core</Title>
         <Authors>Milena Ramiro</Authors>
         <Company>FMD</Company>
@@ -15,13 +15,8 @@
 
     <ItemGroup>
       <PackageReference Include="Fmd.Net.Mediator" Version="1.0.2" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
-      <PackageReference Include="AspNetCore.HealthChecks.UI" Version="9.0.0"/>
-      <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0"/>
-      <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="9.0.0" />
-      <PackageReference Include="AspNetCore.HealthChecks.UI.Data" Version="9.0.0" />
-      <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="9.0.0" />  
     </ItemGroup>
 
     <ItemGroup>
