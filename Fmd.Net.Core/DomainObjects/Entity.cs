@@ -3,9 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Fmd.Net.Core.DomainObjects;
 
-public abstract class Entity
+public abstract class Entity : Entity<int>
 {
-    [Key] [Column("id")] public int Id { get; protected set; }
+}
+
+public abstract class Entity<T>
+{
+    [Key] [Column("id")] public T Id { get; protected set; }
     [Column("nome")] public string? Nome { get; protected set; }
     [Column("descricao")] public string? Descricao { get; protected set; }
     [Column("criado_em")] public DateTime CreatedAt { get; protected set; }

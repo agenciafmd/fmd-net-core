@@ -7,9 +7,10 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Fmd.Net.Core</PackageId>
         <PackageIcon>logo.jpg</PackageIcon>
-        <Version>1.1.1</Version>
+        <RepositoryUrl>https://github.com/agenciafmd/fmd-net-core</RepositoryUrl>
+        <Version>1.1.2</Version>
         <Title>Fmd.Net.Core</Title>
-        <Authors>Milena Ramiro</Authors>
+        <Authors>Milena Ramiro; Vinicius Fumagalli</Authors>
         <Company>FMD</Company>
     </PropertyGroup>
 
