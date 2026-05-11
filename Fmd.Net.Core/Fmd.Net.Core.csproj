@@ -8,7 +8,7 @@
         <PackageId>Fmd.Net.Core</PackageId>
         <PackageIcon>logo.jpg</PackageIcon>
         <RepositoryUrl>https://github.com/agenciafmd/fmd-net-core</RepositoryUrl>
-        <Version>1.1.2</Version>
+        <Version>1.1.3</Version>
         <Title>Fmd.Net.Core</Title>
         <Authors>Milena Ramiro; Vinicius Fumagalli</Authors>
         <Company>FMD</Company>
